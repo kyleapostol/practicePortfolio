@@ -5969,6 +5969,16 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+
+.icon-highlight {
+  display: block;
+  transition: transform .2s; /* Animation */
+
+}
+
+.icon-highlight:hover {
+  transform: scale(1.5);
+}
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
@@ -5987,6 +5997,7 @@ button.close {
     width: 900px;
   }
 }
+
 .tooltip {
   position: absolute;
   z-index: 1070;
