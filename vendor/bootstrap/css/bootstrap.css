@@ -5975,6 +5975,17 @@ button.close {
   transition: transform .2s; /* Animation */
 
 }
+.image-container {
+  background-color: bisque;
+  border: 1px black solid;
+  padding: 5%;
+  color: #262626;
+  height: 39vh;
+}
+
+.row-flex {
+  display: flex;
+}
 
 .icon-highlight:hover {
   transform: scale(1.5);
