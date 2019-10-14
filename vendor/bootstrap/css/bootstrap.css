@@ -5975,6 +5975,14 @@ button.close {
   transition: transform .2s; /* Animation */
 
 }
+.ultimate {
+    background-image: url("/img/Ultimate-gif.gif");
+    border: solid 2px white;
+    height: 39vh;
+    background-size: 158%;
+    background-repeat: no-repeat;
+}
+
 .image-container {
   background-color: bisque;
   border: 1px black solid;
