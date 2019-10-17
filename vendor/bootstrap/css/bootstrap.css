@@ -5977,7 +5977,6 @@ button.close {
 }
 .ultimate {
     background-image: url("/img/Ultimate-gif.gif");
-    border: solid 2px white;
     height: 39vh;
     background-size: 158%;
     background-repeat: no-repeat;
