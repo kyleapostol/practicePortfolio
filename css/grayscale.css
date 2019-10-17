@@ -263,6 +263,14 @@ a:focus {
   color: #42DCA3;
   background-color: transparent;
 }
+
+/* .ultimate {
+  background-image: url("/img/Ultimate-gif.gif");
+  height: 39vh;
+  background-size: 158%;
+  background-repeat: no-repeat;
+} */
+
 .btn-default:hover,
 .btn-default:focus {
   border: 1px solid #42DCA3;
@@ -290,7 +298,7 @@ ul.banner-social-buttons {
 }
 footer {
   margin-top: 25%;
-  padding: 50px 0;
+    padding: 50px 0;
 }
 footer p {
   margin: 0;
