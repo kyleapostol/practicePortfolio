@@ -5904,6 +5904,7 @@ button.close {
 }
 .modal-content {
   position: relative;
+  margin: 1%;
   background-color: #fff;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
@@ -5968,6 +5969,41 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+
+.icon-highlight {
+  display: block;
+  transition: transform .2s; /* Animation */
+
+}
+.ultimate {
+    background-image: url("/img/Ultimate-gif.gif");
+    height: 39vh;
+    background-size: 158%;
+    background-repeat: no-repeat;
+}
+
+.bootstrap {
+  background-image: url("/img/wicked-sales-3.gif");
+  height: 39vh;
+  background-size: 158%;
+  background-repeat: no-repeat;
+}
+
+.image-container {
+  background-color: bisque;
+  border: 1px black solid;
+  padding: 5%;
+  color: #262626;
+  height: 39vh;
+}
+
+.row-flex {
+  display: flex;
+}
+
+.icon-highlight:hover {
+  transform: scale(1.5);
+}
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
@@ -5986,6 +6022,7 @@ button.close {
     width: 900px;
   }
 }
+
 .tooltip {
   position: absolute;
   z-index: 1070;
