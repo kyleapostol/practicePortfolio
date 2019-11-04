@@ -5975,6 +5975,12 @@ button.close {
   transition: transform .2s; /* Animation */
 
 }
+
+.profile-pic {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
 .ultimate {
     background-image: url("/img/Ultimate-gif.gif");
     height: 39vh;
