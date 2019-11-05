@@ -5995,6 +5995,13 @@ button.close {
   background-repeat: no-repeat;
 }
 
+.remogy {
+  background-image: url("/img/Remogy\ copy.gif");
+  height: 39vh;
+  background-size: 158%;
+  background-repeat: no-repeat;
+}
+
 .image-container {
   background-color: bisque;
   border: 1px black solid;
